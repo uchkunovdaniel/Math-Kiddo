@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "655664352175",
+    "project_id": "mathkiddo-loginpage",
+    "storage_bucket": "mathkiddo-loginpage.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655664352175:android:34549184e45a8ef7f3bd5a",
+        "android_client_info": {
+          "package_name": "com.example.mathkiddo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpdQM9kQ7VwBGO_bUKA73HE2ZOQDmNZm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655664352175:android:28c447591036af88f3bd5a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpdQM9kQ7VwBGO_bUKA73HE2ZOQDmNZm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
