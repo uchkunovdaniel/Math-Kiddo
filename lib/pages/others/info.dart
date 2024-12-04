@@ -17,6 +17,12 @@ signUserOut(BuildContext context) {
     context,
     MaterialPageRoute(builder: (context) => const AuthPage()),
   );
+  progress = 0;
+  for (var key in progressdict.keys) {
+    for (var key2 in progressdict[key]!.keys) {
+      progressdict[key]![key2] = false;
+    }
+  }
 }
 
 class _InfoState extends State<Info> {
