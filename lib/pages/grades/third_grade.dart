@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mathkiddo/pages/theme.dart';
 import 'package:mathkiddo/main.dart';
-
+import 'package:mathkiddo/pages/others/home_page.dart';
 //MAIN PAGE
 
 void main() {
@@ -239,7 +239,10 @@ class Q1ThirdGradeState extends State<Q1ThirdGrade> {
   }
 
   void _closeAllLevels() {
-    Navigator.popUntil(context, (route) => route.isFirst);
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => const HomePage()),
+    );
   }
 
   @override
@@ -404,7 +407,10 @@ class Q2ThirdGradeState extends State<Q2ThirdGrade> {
   }
 
   void _closeAllLevels() {
-    Navigator.popUntil(context, (route) => route.isFirst);
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => const HomePage()),
+    );
   }
 
   @override
@@ -570,7 +576,10 @@ class Q3ThirdGradeState extends State<Q3ThirdGrade> {
   }
 
   void _closeAllLevels() {
-    Navigator.popUntil(context, (route) => route.isFirst);
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => const HomePage()),
+    );
   }
 
   @override
@@ -735,7 +744,10 @@ class Q4ThirdGradeState extends State<Q4ThirdGrade> {
   }
 
   void _closeAllLevels() {
-    Navigator.popUntil(context, (route) => route.isFirst);
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => const HomePage()),
+    );
   }
 
   @override
@@ -865,7 +877,10 @@ class Q5ThirdGradeState extends State<Q5ThirdGrade> {
   }
 
   void _closeAllLevels() {
-    Navigator.popUntil(context, (route) => route.isFirst);
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => const HomePage()),
+    );
   }
 
   @override
