@@ -7,8 +7,6 @@ Future<List<Map<String, dynamic>>> getDataFirestore(String collectionName) async
   return querySnapshot.docs.map((doc) => doc.data() as Map<String, dynamic>).toList();
 }
 
-
-
 Future<Map<String, List<Map<String, dynamic>>>> getAllQuestions() async {
   Map<String, List<Map<String, dynamic>>> questions = {};
   for (int i = 1; i <= 4; i++) {
